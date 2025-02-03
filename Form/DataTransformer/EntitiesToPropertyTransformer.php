@@ -87,7 +87,7 @@ class EntitiesToPropertyTransformer implements DataTransformerInterface
      * @param array $values
      * @return array
      */
-    public function reverseTransform(mixed $value): mixed
+    public function reverseTransform(mixed $values): mixed
     {
         if (!is_array($values) || empty($values)) {
             return array();
